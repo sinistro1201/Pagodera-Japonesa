@@ -1,0 +1,54 @@
+body{
+    color: rgb(218, 182, 249);
+    background: rgb(110, 29, 181);
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+header{
+    border: solid 2px rgb(151, 84, 210);
+    padding: 20px;
+    font-size: 32px;
+}
+
+.normal{
+    background: rgb(152, 62, 222);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 10px;
+    margin-left: 5%px;
+}
+
+.chamada-texto2{
+    margin-right: 10px;
+
+}
+
+img{
+    height: 200px;
+}
+
+.outros-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.quadrado-preto{
+    margin-left: 50px;  
+    margin-bottom: 25px;  
+}
+
+.outros-videos img{
+    opacity: 0.5;
+}
+
+.outros-videos img:hover{
+    opacity: 1;
+    border: 1px solid rgb(222, 192, 242);
+}
